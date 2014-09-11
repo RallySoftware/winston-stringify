@@ -22,10 +22,10 @@
     "grunt-mocha-test": "^0.11.0"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
+    "lodash": "^2.4.0",
     "json-stable-stringify": "^1.0.0"
   },
   "peerDependencies": {
-    "winston": "^0.7.3"
+    "winston": "^0.7.0"
   }
 }
