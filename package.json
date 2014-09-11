@@ -1,0 +1,31 @@
+{
+  "name": "winston-stringify",
+  "version": "0.0.1",
+  "description": "https://github.com/RallySoftware/winston-stringify",
+  "homepage": "https://github.com/RallySoftware/winston-stringify",
+  "bugs": "https://github.com/RallySoftware/winston-stringify/issues",
+  "author": {
+    "name": "Patrick Winters",
+    "email": "pwinters@rallydev.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RallySoftware/winston-stringify"
+  },
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "should": "^4.0.4",
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.5",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "grunt-mocha-test": "^0.11.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "json-stable-stringify": "^1.0.0"
+  },
+  "peerDependencies": {
+    "winston": "^0.7.3"
+  }
+}
