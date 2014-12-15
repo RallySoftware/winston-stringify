@@ -8,18 +8,23 @@
     "name": "Patrick Winters",
     "email": "pwinters@rallydev.com"
   },
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/RallySoftware/winston-stringify"
   },
   "main": "./lib/index.js",
   "devDependencies": {
-    "should": "^4.0.4",
-    "grunt-cli": "^0.1.13",
     "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-mocha-test": "^0.11.0",
     "mocha": "^1.21.4",
-    "sinon": "^1.10.3",
-    "grunt-mocha-test": "^0.11.0"
+    "should": "^4.0.4",
+    "sinon": "^1.10.3"
   },
   "dependencies": {
     "lodash": "^2.4.0",
